@@ -1,2 +1,2 @@
 # firebase-poosana
- try firebase services
+ทดลองใช้บริการต่าง ๆ ของ Firebase
