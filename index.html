@@ -9,7 +9,36 @@
 </head>
 <body>
     <div class = "container my-3">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="/Firebase-hosting/public/index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/Firebase-authentication/index.html">Authentication</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/FIrebase-cloud-storage/index.html">Cloud Storage</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link " href="/index.html" tabindex="-1" aria-disabled="true">Cloud Firestore</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
         <h2 class = "text-center">Firebase cloud-firestore</h2>
+        <div><p>Cloud Firestore คือหนึ่งในบริการของ Firebase ช่วยจัดการเกี่ยวกับ Database โดยมีการเก็บโครงสร้างข้อมูลแบบ Document Database ซึ่งเป็นส่วนหนึ่งของ NoSql Database ช่วยให้การออกแบบฐานข้อมูลมีความสะดวกสบาย และยังรองรับการจัดเก็บข้อมูลที่มีหลากหลายรูปแบบ</p>
+            <h5>วิธีใช้งาน</h5>
+            <ol type="1">
+                <li>ใส่ชื่อและอายุจากนั้นกดบันทึก</li>
+                <li>เมื่อกดรีเฟรชส่วนด้านล่างจะแสดข้อมูลใน database</li>
+                <li>กดลบเพื่อลบข้อมูลออกจาก databse</li>
+              </ol>
+        </div>
+        
         <form id ="addForm">
             <div class="form-group">
                 <label for ="name">name</label>

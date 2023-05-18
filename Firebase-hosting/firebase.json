@@ -1,0 +1,28 @@
+{
+  "hosting": {
+    "public": "public",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      },
+      {
+        "source": "/page1",
+        "destination": "/Firebase-authentication/index.html"
+      },
+      {
+        "source": "/page2",
+        "destination": "/cloudFirestore.html"
+      },
+      {
+        "source": "/page3",
+        "destination": "/Firebase-cloud-storage/index.html"
+      }
+    ]
+  }
+}
